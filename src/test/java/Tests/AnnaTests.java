@@ -1,7 +1,5 @@
 package Tests;
 
-import Pages.Step1PricingPanel;
-import Pages.WizardStep1Validation;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
