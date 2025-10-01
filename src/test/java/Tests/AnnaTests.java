@@ -117,6 +117,10 @@ public void deliveryAddressTests(){
         step1PricingPanel.clearDeviceType();
 
     }
+    @Test(priority = 21)
+    public void selectDeviceTypeTests1(){
+        step1PricingPanel.selectDeviceType();
+    }
 
 
 

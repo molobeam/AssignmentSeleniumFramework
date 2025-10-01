@@ -33,6 +33,10 @@ public class Step1PricingPanel {
     }
     public void clearDeviceType() {
         deviceType_id.clear();
+
+    }
+    public void selectDeviceType() {
+        deviceType_id.sendKeys("tablet");
     }
 
 }
