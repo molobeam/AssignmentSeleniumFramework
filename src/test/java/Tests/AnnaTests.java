@@ -120,14 +120,23 @@ public void deliveryAddressTests(){
         step1PricingPanel.verifyInvertoryFormSetupIsDisplayed();
     }
     //step1pricing panel to clear and select device type
-   /* @Test(priority = 21)
+    @Test(priority = 22)
     public void selectDeviceTypeTests1(){
         step1PricingPanel.selectDeviceType();
     }
-    /*@Test(priority = 22)
+    @Test(priority = 23)
+    public void selectBrandTypeTests(){
+        step1PricingPanel.selectBrandType();
+    }
+    @Test(priority = 24)
     public void clickNextButtonTests1(){
         step1PricingPanel.clickNextButton();
-    }*/
+    }
+    //step2ExtrasPricing
+    @Test(priority = 25)
+    public void shippingMethodExpressTests(){
+    step2ExtrasPricing.shippingMethodExpress();
+    }
 
 
 
