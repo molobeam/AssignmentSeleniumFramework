@@ -115,6 +115,10 @@ public void deliveryAddressTests(){
         step1PricingPanel.clearDeviceType();
 
     }
+    @Test(priority = 21)
+    public void verifyInvertoryFormSetupIsDisplayedTests(){
+        step1PricingPanel.verifyInvertoryFormSetupIsDisplayed();
+    }
     //step1pricing panel to clear and select device type
    /* @Test(priority = 21)
     public void selectDeviceTypeTests1(){

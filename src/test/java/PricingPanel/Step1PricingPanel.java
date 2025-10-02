@@ -14,6 +14,8 @@ public class Step1PricingPanel {
     WebElement backButton_id;
     @FindBy(id="deviceType")
     WebElement deviceType_id;
+    @FindBy(id="inventory-form")
+    WebElement inventoryForm_id;
 
     public Step1PricingPanel(WebDriver driver) {
         this.driver = driver;
@@ -32,14 +34,18 @@ public class Step1PricingPanel {
 
     }
     public void clearDeviceType() {
+        deviceType_id.sendKeys("Select");
         deviceType_id.clear();
 
     }
-    /*public void selectDeviceType() {
-        deviceType_id.sendKeys("laptop");
+    public void verifyInvertoryFormSetupIsDisplayed(){
+        inventoryForm_id.isDisplayed();
     }
-    public void clickNextButton(){
-        backButton_id.click();
-    }*/
+    //public void selectDeviceType() {
+       // deviceType_id.sendKeys("laptop");
+    //}
+    //public void clickNextButton(){
+      //  backButton_id.click();
+   // }
 
 }
