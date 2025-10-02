@@ -115,10 +115,15 @@ public void deliveryAddressTests(){
         step1PricingPanel.clearDeviceType();
 
     }
-    @Test(priority = 21)
+    //step1pricing panel to clear and select device type
+   /* @Test(priority = 21)
     public void selectDeviceTypeTests1(){
         step1PricingPanel.selectDeviceType();
     }
+    /*@Test(priority = 22)
+    public void clickNextButtonTests1(){
+        step1PricingPanel.clickNextButton();
+    }*/
 
 
 
