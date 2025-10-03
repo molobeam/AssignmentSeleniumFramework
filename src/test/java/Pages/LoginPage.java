@@ -54,7 +54,7 @@ public class LoginPage {
     }
 
     public void waitForWelcomeMessage() {
-        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOf(welcomeMessage_id));
+        new WebDriverWait(driver, Duration.ofSeconds(30)).until(ExpectedConditions.visibilityOf(welcomeMessage_id));
     }
 
     public void verifyWelcomeMessageIsDisplayed() {

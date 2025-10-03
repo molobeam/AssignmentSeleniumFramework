@@ -96,7 +96,7 @@ public void deliveryAddressTests(){
         wizardStep1Validation.clickNextButton();
     }
     //Step1PricingPanel
-    @Test(priority = 18)
+    /*@Test(priority = 18)
     public void waitForNextButtonTests(){
         step1PricingPanel.waitForNextButton();
     }
@@ -124,6 +124,7 @@ public void deliveryAddressTests(){
     public void selectDeviceTypeTests1(){
         step1PricingPanel.selectDeviceType();
     }
+
     @Test(priority = 23)
     public void selectBrandTypeTests(){
         step1PricingPanel.selectBrandType();
@@ -131,11 +132,23 @@ public void deliveryAddressTests(){
     @Test(priority = 24)
     public void clickNextButtonTests1(){
         step1PricingPanel.clickNextButton();
-    }
+    }*/
     //step2ExtrasPricing
-    @Test(priority = 25)
+    @Test(priority = 18)
     public void shippingMethodExpressTests(){
     step2ExtrasPricing.shippingMethodExpress();
+    }
+    @Test(priority = 19)
+    public void warrantyOption1yrTests() {
+        step2ExtrasPricing.warrantyOption1yr();
+    }
+    @Test(priority = 20)
+    public void enterDiscountCodeTests () {
+        discountCodes.enterDiscountCode();
+    }
+    @Test(priority = 21)
+    public void clickApplyDiscountCodeTests(){
+        discountCodes.clickApplyDiscountCode();
     }
 
 

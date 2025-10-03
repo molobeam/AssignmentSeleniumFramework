@@ -10,7 +10,7 @@ public class WizardStep1Validation {
     WebElement deviceType_id;
 @FindBy(id="brand")
     WebElement brand_id;
-@FindBy(id="storage-128GB")
+@FindBy(id="storage-64GB")
     WebElement storageSize_id;
 @FindBy(id="color")
     WebElement color_id;
