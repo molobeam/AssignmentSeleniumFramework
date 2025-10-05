@@ -23,5 +23,6 @@ public class Base {
     //Step1PricingPanel step1PricingPanel= PageFactory.initElements(driver, Step1PricingPanel.class);
     Step2ExtrasPricing step2ExtrasPricing= PageFactory.initElements(driver, Step2ExtrasPricing.class);
     DiscountCodes discountCodes= PageFactory.initElements(driver, DiscountCodes.class);
+
     TakesScreenshots takesScreenshots = new TakesScreenshots();
 }

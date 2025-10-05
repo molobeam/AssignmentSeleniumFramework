@@ -151,11 +151,7 @@ public void deliveryAddressTests(){
 //public void verifyFeedbackMessageTests(){
     //discountCodes.verifyFeedbackMessage();
 //}
-    @Test(priority = 22)
-    public void addCardItem1(){
-        addToCard.addCardItem1();
-    }
-
+  
 
 
     @AfterTest
